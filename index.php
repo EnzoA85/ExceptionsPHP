@@ -61,6 +61,8 @@ class Gaston
 </head>
 <img src="https://upload.wikimedia.org/wikipedia/fr/2/2a/Logo-laposte.png" width="10%">
 <body>
+    <hr color="black" style="margin-top: 50px;">
+    <h3>Trier le courrier en retard</h3><br/>
     <div class="alert alert-warning">
         <?php
             echo " <strong> Chef </strong> - Debout Gaston ! Il faut trier le courrier ! <br/>";
@@ -71,6 +73,9 @@ class Gaston
         $gaston->TrierCourrierEnRetard(3);
     ?>
 
+    <hr color="black" style="margin-top: 50px;">
+
+    <h3>Imprimer les contrats</h3><br/>
     <div class = "alert alert-warning">
         <?php
             echo"<strong> Chef </strong> - Gaston, Mr.Demesmaeker arrive, faites vite!";
@@ -80,5 +85,6 @@ class Gaston
         $gaston = new Gaston();
         $gaston->FaireSignerContrats();
     ?>
+    <hr color="black" style="margin-top: 50px;margin-bottom: 50px;">
 </body>
 </html>
