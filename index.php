@@ -11,7 +11,7 @@ class Gaston
             } 
             echo "<br/><I> Une heure plus tard </I><br/><br/>";
             echo "<strong> Gaston </strong> - Ouf, j'ai fini. <br/><br/>";
-        } catch(Exception$e) {
+        } catch(Exception $e) {
             echo"<br/><div class ='alert alert-danger'> <strong> Gaston </strong> - M'enfin ! ".$e->getMessage()."</div>";
         } 
         echo"<div class ='alert alert-success'> <strong> Gaston </strong> - Après tout ce travail, une sieste s'impose.</div>";
