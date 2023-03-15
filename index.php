@@ -81,7 +81,7 @@ class Gaston
             <h3>Imprimer les contrats</h3><br/>
             <div class = "alert alert-warning">
                 <?php
-                    echo"<strong> Chef </strong> - Gaston, Mr.Demesmaeker arrive, faites vite!";
+                    echo"<strong> Chef </strong> - Gaston, Mr.Demesmaeker arrive, faites vite !";
                 ?>
             </div>
             <?php
